@@ -1,0 +1,15 @@
+import math
+import os
+import random
+import re
+import sys
+
+q = int(input())
+for _ in range(q):
+    count = 0;
+    s = input()
+    for i in range(len(s) - 1):
+        if s[i] == s[i + 1]:
+            count += 1
+    print(count)   
+    
